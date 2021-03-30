@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Nunito');
 
 /* add color variables */
+body{
+  background-color: #3C6478;
+  color: white;
+}
 :root {
   --candy-pink: #E7717D;
   --grey-ice-blue: #C2CAD0;
@@ -31,7 +35,7 @@ body {
 
 h1 {
   font-size: 5vw;
-  color: var(--total-black);
+  /* color: var(--total-black); */
 }
 
 h2{
@@ -218,3 +222,11 @@ input:focus {
             transform: scale3d(1, 1, 1);
   }
 }
+
+/* to do boxes */
+/* .now{
+  /* padding-top: 10px;
+  padding-bottom: 10px; 
+
+} */
+
